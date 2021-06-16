@@ -1,6 +1,5 @@
 argo-applications:
   project:
-    - name: test
     - name: petclinic-stg
     - name: petclinic-prd
   repoURL: https://github.com/yakiyoshi/devenv.git
