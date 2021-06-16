@@ -1,4 +1,5 @@
-project:
-  - name: test3
-  - name: test4
-repoURL: https://github.com/yakiyoshi/devenv.git
+argo-applications:
+  project:
+    - name: test3
+    - name: test4
+  repoURL: https://github.com/yakiyoshi/devenv.git
