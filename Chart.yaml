@@ -1,0 +1,8 @@
+apiVersion: v2
+name: devenv-application
+type: application
+version: 0.1.0
+dependencies:
+- name: argo-application
+  version: 0.1.0
+  repository: https://yakiyoshi.github.io/devenv-helm/
