@@ -20,4 +20,4 @@ gogl-ci:
     baseimage: quay.io/yakiyoshi/jupyter-remote-desktop-proxy:0.0.3
 
   deploy:
-    gpu: false
+    gpu: true
