@@ -1,6 +1,8 @@
 argo-applications:
   project:
+    - name: gl21-cube
+      repoURL: https://github.com/yakiyoshi/devenv.git
+      path:  gl21-cube
     - name: petclinic-stg
-    - name: petclinic-prd
-    - name: petclinic-prd-test
-  repoURL: https://github.com/yakiyoshi/devenv.git
+      repoURL: https://github.com/yakiyoshi/devenv.git
+      path:  petclinic-stg
