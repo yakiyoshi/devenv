@@ -17,8 +17,7 @@ gogl-ci:
     buildimage: quay.io/yakiyoshi/gogl:0.0.2
 
   imagebuild:
-    baseimage: quay.io/yakiyoshi/jupyter-remote-desktop-proxy:virtgl-0.0.1
+    baseimage: quay.io/yakiyoshi/jupyter-remote-desktop-proxy:virtgl-0.0.2
 
   deploy:
     gpu: true
-    
