@@ -21,3 +21,4 @@ gogl-ci:
 
   deploy:
     gpu: true
+    
