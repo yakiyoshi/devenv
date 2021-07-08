@@ -1,0 +1,24 @@
+gogl-ci:
+  project:
+    # Specify OpenShift User
+    users:
+      - user02
+
+  application:
+    name: gl41core-cube
+    # Specify diretory stored application code in repogitory
+    subdirectory: ./
+    phrase: "1234567"
+
+  staticanalysis:
+    enabled: true
+
+  appbuild:
+    buildimage: quay.io/yakiyoshi/gogl:0.0.2
+
+  imagebuild:
+    baseimage: quay.io/yakiyoshi/glx-docker-headless-gpu:0.2.9
+
+  deploy:
+    gpu: true
+

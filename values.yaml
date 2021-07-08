@@ -3,6 +3,9 @@ argo-applications-desktop:
     - name: gl21-cube
       repoURL: https://github.com/yakiyoshi/devenv.git
       path:  gl21-cube
+    - name: gl41core-cube
+      repoURL: https://github.com/yakiyoshi/devenv.git
+      path:  gl41core-cube
     - name: petclinic-stg
       repoURL: https://github.com/yakiyoshi/devenv.git
       path:  petclinic-stg
