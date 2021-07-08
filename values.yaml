@@ -1,4 +1,4 @@
-argo-applications:
+argo-applications-desktop:
   project:
     - name: gl21-cube
       repoURL: https://github.com/yakiyoshi/devenv.git

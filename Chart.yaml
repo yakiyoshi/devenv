@@ -3,6 +3,6 @@ name: devenv-application
 type: application
 version: 0.1.0
 dependencies:
-- name: argo-applications
-  version: 0.3.0
+- name: argo-applications-desktop
+  version: 0.4.0
   repository: https://yakiyoshi.github.io/devenv-helm/
