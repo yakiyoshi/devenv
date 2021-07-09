@@ -1,0 +1,9 @@
+apiVersion: v2
+name: gogl-ci-gl21-cube
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+dependencies:
+- name: gogl-ci
+  version: 0.8.0
+  repository: https://yakiyoshi.github.io/devenv-helm/
