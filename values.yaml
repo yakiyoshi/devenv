@@ -3,6 +3,3 @@ argo-applications-desktop:
     - name: gl21-cube
       repoURL: https://github.com/yakiyoshi/devenv.git
       path:  gl21-cube
-    - name: cub41core
-      repoURL: https://github.com/yakiyoshi/devenv.git
-      path:  cub41core
