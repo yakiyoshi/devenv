@@ -11,7 +11,7 @@ gogl-ci:
     phrase: "1234567"
 
   staticanalysis:
-    enabled: true
+    enabled: false
 
   appbuild:
     buildimage: quay.io/yakiyoshi/gogl:0.0.2
